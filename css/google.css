@@ -1,0 +1,39 @@
+.center {
+  margin-top: 225px;
+}
+
+.container {
+  text-align: center;
+}
+
+.google-logo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.search-google {
+  width: 450px;
+  padding: 10px 14px;
+  border: 1px solid #dfe1e5;
+  border-radius: 20px;
+}
+
+.search-google:hover {
+  box-shadow: 0px 0px 3px 0px rgba(99, 99, 99, 0.3);
+}
+.search-google:focus-visible {
+  outline: none;
+}
+
+.under-text {
+  margin: 20px 5px;
+  background-color: rgb(248, 248, 248);
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.under-text:hover {
+  box-shadow: 1px 1px 2px 1px rgba(99, 99, 99, 0.3);
+}

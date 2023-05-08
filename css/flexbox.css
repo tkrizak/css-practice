@@ -1,0 +1,63 @@
+.exercise-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout-1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.layout-2 {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.exercise-2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.layout-3 {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.layout-4 {
+  background-color: lightpink;
+  flex: 1;
+  max-width: 375px;
+}
+
+.layout-5 {
+  background-color: lightblue;
+  width: 75px;
+}
+
+.exercise-3 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+.layout-6 {
+  background-color: lightpink;
+}
+
+.exercise-4 {
+  margin-top: 20px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+}
+
+.layout-7 {
+  background-color: lightblue;
+}

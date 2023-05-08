@@ -1,0 +1,101 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tweet-container {
+  padding: 12px;
+  width: 400px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px 0px rgba(99, 99, 99, 0.4);
+}
+
+.tweet-pic {
+  vertical-align: middle;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tweet-text {
+  font-size: 16px;
+  color: #536471;
+  width: 240px;
+  margin-left: 5px;
+  padding: 6px;
+  border: none;
+  vertical-align: middle;
+}
+
+.tweet-text:focus-visible {
+  outline: none;
+}
+
+.button-tweet {
+  vertical-align: middle;
+  background-color: rgb(29, 155, 240);
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  border: rgb(29, 155, 240) solid 1px;
+  padding: 8px 16px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.button-tweet:hover {
+  background-color: rgb(16, 143, 228);
+  border-color: rgb(16, 143, 228);
+}
+
+.friends-container {
+  display: inline-block;
+  border: none;
+  width: 200px;
+  margin: 20px 10px 20px 10px;
+  box-shadow: 0px 0px 6px 0px rgba(99, 99, 99, 0.3);
+}
+
+.friend-pic {
+  height: 190px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.name,
+.friends-amount,
+.add-friend {
+  margin-left: 8px;
+}
+
+.name {
+  margin-top: 6px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.friends-amount {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #536471;
+}
+
+.add-friend {
+  margin-bottom: 10px;
+  border: none;
+  background-color: #3177dafd;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-friend:hover {
+  background-color: rgba(16, 143, 228, 0.9);
+  border-color: rgb(16, 143, 228, 0.9);
+}
