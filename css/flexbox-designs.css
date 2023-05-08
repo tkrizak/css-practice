@@ -1,0 +1,113 @@
+p {
+  margin: 0;
+}
+
+.menu {
+  box-shadow: 0 0 2px grey;
+  max-width: 250px;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.menu-left {
+  margin-left: 6px;
+  min-width: 90px;
+  cursor: pointer;
+}
+
+.menu-right {
+  margin-right: 6px;
+  text-align: right;
+  flex: 1;
+  min-width: 31px;
+}
+
+.numbers-button {
+  border: none;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  cursor: pointer;
+}
+
+.menu-friends {
+  margin-top: 30px;
+  box-shadow: 0 0 2px grey;
+  max-width: 300px;
+}
+
+.menu-friends-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.friends-left-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  min-width: 100px;
+  padding: 0 8px;
+}
+
+.picture-row {
+  width: 35px;
+  height: 35px;
+  padding-right: 8px;
+}
+
+.friend-text-row {
+  min-width: 60px;
+  text-align: left;
+  flex: 1;
+}
+
+.name-text {
+  font-weight: 700;
+}
+
+.info-text {
+  color: #536471;
+}
+
+.popularity-text {
+  color: #536471;
+  font-size: 13px;
+}
+
+.friends-right-section {
+  flex: 1;
+  text-align: right;
+
+  padding: 0 8px;
+}
+.profile-pic {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.follow-button {
+  border: 1px solid #2695f2;
+  border-radius: 4px;
+  background-color: #2695f2;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.follow-button:hover {
+  background-color: #2284d4;
+}
