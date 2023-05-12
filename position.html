@@ -17,6 +17,7 @@
         left: 0;
         right: 0px;
         height: 50px;
+        z-index: 1;
       "
     >
       header
@@ -33,6 +34,30 @@
       "
     >
       sidebar
+      <div
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          right: 0;
+          top: 0;
+        "
+      >
+        X
+      </div>
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        left: 10px;
+        right: 10px;
+        top: 60px;
+      "
+    >
+      absolute
     </div>
 
     <div
@@ -45,31 +70,26 @@
     >
       div 1
     </div>
-    <div style="background-color: lightpink; height: 200px; width: 200px">
+    <div
+      style="
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
       div 2
-    </div>
-
-    <div
-      style="
-        background-color: yellow;
-        position: fixed;
-        right: 100px;
-        bottom: 20px;
-      "
-    >
-      bottom-right
-    </div>
-    <div
-      style="
-        background-color: blue;
-        position: fixed;
-        right: 0;
-        top: 50px;
-        bottom: 0;
-        width: 70px;
-      "
-    >
-      sidebar-right
+      <div
+        style="
+          position: absolute;
+          background-color: black;
+          color: white;
+          bottom: 10px;
+          right: 10px;
+        "
+      >
+        5:00
+      </div>
     </div>
   </body>
 </html>
